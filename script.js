@@ -1,4 +1,3 @@
-
 let firstName = document.querySelector('#first_name');
 let resName = document.querySelector('#resName');
 let validName = false
@@ -15,7 +14,6 @@ let email = document.querySelector('#email');
 let resEmail = document.querySelector('#resEmail');
 let validEmail = false;
 
-
 let inputCadastro = document.getElementById('input-cadastro')
 var respErro = document.getElementById('respErro');
 var respSucesso = document.getElementById('respSucesso');
@@ -26,8 +24,6 @@ let validSelect = false;
 
 let checkbox = document.querySelector('.checkbox')
 let validService = false;
-
-
 
 let btn = document.querySelector('#btnEnviar');
 
@@ -179,7 +175,7 @@ function ApenasLetras(e, t) {
 
 
 //validação geral com o evento input para veficar se cada campo está Preenchido com todos os requisitos solicitados
-       /*  function validar(){    
+        function validar(){    
         if (validName && validCompany && validTelephony && validEmail && validService){  
             respSucesso.style.color = '#000'
             respSucesso.style.fontSize = '0.8rem'
@@ -202,25 +198,7 @@ function ApenasLetras(e, t) {
             btn.style.cursor = 'no-drop'
             
         }
-    } */
-    
-
-    function validar(){    
-        if (validName && validCompany && validTelephony && validEmail  && validService){  
-            
-            //btn.disabled = false;
-            btn.style = 'background-color: #CA1C2A'
-            //btn.style.cursor = 'pointer'
-            console.log("test foi")
-
-        }else{
-           
-            //btn.disabled = true
-           // btn.style.cursor = 'no-drop'
-            console.log("test não foi   ")
-        }
     }
-
     
     let accordion = document.querySelector(".accordion");
     let accordionChild = accordion.children
