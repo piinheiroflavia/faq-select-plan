@@ -2,10 +2,10 @@
 <html lang="pt-br">
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-  <title>Teste Formulário</title>
+  <title>Monte Seu Plano</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -14,25 +14,18 @@
 
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  <!-- icone -->
-  <script src="https://kit.fontawesome.com/1adef48ab7.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
 
-
   <h1 style="margin-left: 25px; margin-top: 25px; color: #CA1C2A; font-size: 25px;">Monte seu plano</h1>
   <h1 style="margin-left: 25px; margin-top: 25px; color: #54595F; font-size: 15px;">Preencha o formulário abaixo com os produtos que deseja comprar e suas informações para contato.
-    <br>Respondemos em até 24h.
+  <br>Respondemos em até 24h.
   </h1>
-
   <div class="container">
     <div class="row container">
-        <div class="funciona col-sm">
-            
+        <div class="funciona col-sm">    
         <div >
             <h1 id='titleBorder' style=" margin-top: 25px; font-size: 15px;">1. Selecione Os Serviços</h1><div class="accordion" id="accordionExample">
-
                 <!-- parte 1 Internet -->
                 <div class="accordion-item">
                   <h2 class="accordion-header">
@@ -40,29 +33,23 @@
                       Internet
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
-                    
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >                   
                     <div class="accordion-body">
-
                         <div class="form-group">
                             <input class="checkbox" id="checkboxInternet" onchange="Checked(value = 'INTERNET')" type='checkbox' />
                             <label for="checkbox1" id="" style="margin-left: 5px;">Internet Dedicada</label>
-                        </div>
-        
+                        </div>    
                         <div class="form-group">
                             <input class="checkbox" id="checkboxBanda" onchange="Checked(value = 'BANDA')" type='checkbox' />
                             <label for="checkbox2" id="" style="margin-left: 5px;">Banda Larga</label>
-                        </div>
-        
+                        </div>     
                         <div class="form-group">
                             <input class="checkbox" id="checkboxWifi" onchange="Checked(value = 'WIFI')" type='checkbox' />
                             <label for="checkbox2" id="" style="margin-left: 5px;">Wi-fi</label>
-                        </div>
-                    
+                        </div>                   
                     </div>   
                   </div>
                 </div>
-
                 <!-- parte 2 Telefonia -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -71,28 +58,23 @@
                       </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
-                      <div class="accordion-body">
-                       
+                      <div class="accordion-body">                    
                         <div class="form-group">
                             <input class="checkbox" id="checkboxVip" onchange="Checked(value = 'IPBX')" type='checkbox' />
                             <label for="checkbox1" id="" style="margin-left: 5px;">Callphone VIP - IPBX</label>
-                        </div>
-        
+                        </div>      
                         <div class="form-group">
                             <input class="checkbox" id="checkboxE1" onchange="Checked(value = 'E1')" type='checkbox' />
                             <label for="checkbox2" id="" style="margin-left: 5px;">E1</label>
-                        </div>
-        
+                        </div>    
                         <div class="form-group">
                             <input class="checkbox" id="checkboxSip" onchange="Checked(value = 'SIP')" type='checkbox' />
                             <label for="checkbox2" id="" style="margin-left: 5px;">SIP TRUNK</label>
                         </div>
-        
                         <div class="form-group">
                             <input class="checkbox" id="checkbox0800" type='checkbox' onchange="Checked(value = '0800')" />
                             <label for="checkbox2" id="" style="margin-left: 5px;">Números 0800 e 40XX</label>
                         </div>
-
                       </div>
                     </div>
                 </div>
@@ -104,29 +86,24 @@
                       </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        
+                      <div class="accordion-body">                      
                         <div class="form-group">
                             <input class="checkbox" id="checkboxPonto" onchange="Checked(value = 'PONTO')" type='checkbox' />
                             <label for="checkbox1" id="" style="margin-left: 5px;">Ponto-a-Ponto</label>
-                        </div>
-        
+                        </div>      
                         <div class="form-group">
                             <input class="checkbox" id="checkboxMPLS" onchange="Checked(value = 'MPLS')" type='checkbox' />
                             <label for="checkbox2" id="" style="margin-left: 5px;">MPLS</label>
-                        </div>
-        
+                        </div>       
                         <div class="form-group">
                             <input class="checkbox" id="checkboxFibra" onchange="Checked(value = 'FIBRA')" type='checkbox' />
                             <label for="checkbox2" id="" style="margin-left: 5px;">Fibra Apagada e Dutos</label>
-                        </div>
-        
+                        </div>       
                         <div class="form-group">
                             <input class="checkbox" id="checkboxColocation" onchange="Checked(value = 'LOCATION')"
                             type='checkbox' />
                             <label for="checkbox2" id="" style="margin-left: 5px;">Co-location</label>
                         </div>
-
                       </div>
                     </div>
                 </div>
@@ -138,13 +115,11 @@
                       </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        
+                      <div class="accordion-body">                     
                         <div class="form-group">
                             <input class="checkbox" id="checkboxMVNO" onchange="Checked(value = 'MVNO')" type='checkbox' />
                             <label for="checkbox1" id="" style="margin-left: 5px;">MVNO/MVNE</label>
-                        </div>
-            
+                        </div>           
                         <div class="form-group">
                             <input class="checkbox" id="checkboxCELULAR" onchange="Checked(value = 'CELULAR')" type='checkbox' />
                             <label for="checkbox1" id="" style="margin-left: 5px;">Celular Empresarial</label>
@@ -152,7 +127,6 @@
                       </div>
                     </div>
                 </div>
-
                 <!-- parte 5 Outras Soluções -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -161,73 +135,51 @@
                       </button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        
+                      <div class="accordion-body">                
                         <div class="form-group">
                             <input class="checkbox" id="checkboxHARDWARE" onchange="Checked(value = 'HARDWARE')"
                                 type='checkbox' />
                             <label for="checkbox1" id="" style="margin-left: 5px;">Outsourcing de Hardware</label>
                         </div>
-
                       </div>
                     </div>
                 </div>
-
-        <div class="Select" style="margin-top: 10px; margin-left: 15px;">
-            <br>
-            <p id="testeres"><strong>Serviços Selecionados: </strong></p>
-        </div>
+                <div class="Select" style="margin-top: 10px; margin-left: 15px;">
+                    <br>
+                    <p id="testeres"><strong>Serviços Selecionados: </strong></p>
+                </div>
         <br>
-        
     </div>
     </div>
     </div>
-
-    
-
       <div class="funciona-form col-sm">
-          
-
         <form class="formulario" action=""
-          method="POST">
-        
-          <h1 style="margin-top: 25px; font-size: 15px;">2. Suas Informações</h1>
-          
-          <label for="lead_source" style="display: none;">Origem do lead</label>
-          <input id="lead_source" name="lead_source" style="display: none;" value="Vendas(site)">
-
-          <input style="display: none;" id="title" maxlength="40" name="title" size="20" type="text" /><br>
-
+          method="POST">     
+          <h1 style="margin-top: 25px; font-size: 15px;">2. Suas Informações</h1>     
           <label for="first_name" id="resName">Nome: </label><br>
           <input id="first_name" class="inputs" maxlength="60" name="first_name" size="20" type="text"
             placeholder="Digite seu nome" oninput="validaName()" onkeypress="return ApenasLetras(event,this)" />
           <br>
-
           <label for="company" id="resCompany">Empresa: </label><br>
           <input id="company" class="inputs" maxlength="40" name="company" size="20" type="text"
             placeholder="Digite sua empresa" oninput="validaCompany()" onkeypress="return ApenasLetras(event,this)" />
           <br>
-
           <label for="phone" id="resPhone">Telefone: </label>
           <input id="phone" maxlength="14" class="inputs" name="phone" placeholder="Digite seu telefone" size="20"
             type="text" oninput="validaTelephony( this, mtel )" />
           <br>
-
           <label for="email" id="resEmail">Email: </label><br>
           <input id="email" class="inputs" maxlength="80" name="email" size="20" type="text"
             placeholder="Digite seu email" oninput="validaEmail(this.value)" />
           <br>
-
           <label for="description" id="resMessege">Mensagem:</label>
           <textarea name="description" id="description" class="inputs" placeholder="Digite aqui sua mensagem.."></textarea>
           <br>
-
           <div id="respErro" class="loader">
             <p></p>
           </div>
           <div id="respSucesso" class="loader">
             <p></p>
-
           </div>
             <button id="btnEnviar" type="submit" name="submit" >Enviar</button>
             <br><br>
@@ -236,7 +188,6 @@
 </div>
 <br><br>
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
